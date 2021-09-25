@@ -9,19 +9,19 @@
 
 # Ejercicios de práctica numérica
 
-numero_1 = 5
-numero_2 = 7
+a = 5
+b = 7
 
-suma = numero_1 + numero_2 
-print (" el valor de numero es ", numero_1)
+suma = a + b
+print (" el valor de a es ", a )
 
-print (" el valor de numero es ", numero_2)
+print (" el valor de b es ", b)
 
-print ("el resultado de la suma es", suma)
+print ("el resultado de la suma es", suma,)
 
-resta = numero_1 - numero_2 
+resta = a - b
 
-print ("el resultado de restar", numero_1, "y", numero_2, "y", resta)
+print ("el resultado de restar", a , "y", b , "es", resta)
 
 # Realizar la suma de las dos variables
 # numero_1 y numero_2

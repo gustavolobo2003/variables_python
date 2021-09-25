@@ -19,22 +19,6 @@ print('Ingrese por consola el segundo número decimal a operar:')
 numero_2 = int(input())
 print ("numero ingresado:", numero_2 )
 
-print (" 4 + 2=" )
-numero_3 = int(input())
-print ("el resultado de la suma es:", numero_3)
-
-print ("4 - 2 =")
-numero_4 = int(input())
-print ("el resultado de la resta es:", numero_4)
-
-print ("4 * 2 =")
-numero_5 = int(input())
-print ("el resultado de la multiplicacion es:", numero_5)
-
-print ("4 / 2 =")
-numero_6 = int(input())
-print ("el resultado de la divicion es:", numero_6)
-
 # Alumno: Imprima en pantalla los dos números decimales solicitados
 # print(....)
 
@@ -42,12 +26,24 @@ print ("el resultado de la divicion es:", numero_6)
 # numero_1, numero_2
 # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
 # El resultado de sumar 4 y 2 es 6
-# NOTA: No coloque usted los nùmeros y resultados, use las variables
+# NOTA: No coloque usted los nùmeros y resultados, use las variables+
 
-# Suma
+suma = numero_1 + numero_2
 
-# Resta
+resta = numero_1 - numero_2
 
-# División
+divicion = numero_1 / numero_2
 
-# Multiplicación
+multiplicacion = numero_1 * numero_2
+# Suma:
+
+print ("el resultado de sumar es:", numero_1, "y", numero_2, "es", suma)
+# Resta:
+
+print ("el resultado de restar es:", numero_1, "y", numero_2, "es", resta)
+# División:
+
+print ("el resultado de divicion es:", numero_1, "y", numero_2, "es", divicion)
+# Multiplicación:
+
+print ("el resultado de multiplicacion es:", numero_1, "y", numero_2, "es", multiplicacion)
