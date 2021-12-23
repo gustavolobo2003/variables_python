@@ -11,13 +11,13 @@
 
 # Ahora los valores a operar deben ser ingresados por
 # consola con la función "input" como se ve a continuación
-print('Ingrese por consola el primer número decimal a operar:')
-numero_1 = int(input())
+print('Ingrese por consola el primer número entero a operar:')
+num_1 = int(input())
 
-print('Ingrese por consola el segundo número decimal a operar:')
-numero_2 = int(input())
+print('Ingrese por consola el segundo número entero a operar:')
+num_2 = int(input())
 
-# Alumno: Imprima en pantalla los dos números decimales solicitados
+# Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
 
 # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
@@ -33,3 +33,22 @@ numero_2 = int(input())
 # División
 
 # Multiplicación
+
+
+suma = num_1 + num_2
+
+resta = num_1 - num_2
+
+division = num_1 / num_2
+
+multiplicacion = num_1 * num_2
+
+print("El resultado de sumar", num_1, "y", num_2, "es: ", suma)
+
+print("El resultado de restar", num_1, "y", num_2, "es: ", resta)
+
+print("El resultado de dividir", num_1, "y", num_2, "es: ", division)
+
+print("El resultado de multiplicacion", num_1, "y", num_2, "es: ", multiplicacion)
+
+print("Fin")

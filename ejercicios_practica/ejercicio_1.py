@@ -9,8 +9,8 @@
 
 # Ejercicios de práctica numérica
 
-numero_1 = 5
-numero_2 = 7
+num_1 = 5
+num_2 = 7
 
 # Realizar la suma de las dos variables
 # numero_1 y numero_2
@@ -22,3 +22,10 @@ numero_2 = 7
 # print(....)
 
 # Repita el procedimiento para realizar la resta
+Suma = num_1 + num_2
+
+print("El resultado de la suma es: ",Suma)
+
+Resta = num_1 - num_2
+
+print("El resultado de la resta es: ", Resta)
